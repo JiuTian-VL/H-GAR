@@ -16,7 +16,6 @@
 <sup>4</sup>Linyi University<br>
 <sup>5</sup>Dongguan Key Laboratory for Intelligence and Information Technology<br>
 *Corresponding author<br>
-[![arXiv](https://img.shields.io/badge/arXiv-2407.14439-b31b1b.svg?logo=arxiv)](https://github.com/JiuTian-VL/EmoSym)
 
 </div>
 
@@ -25,12 +24,13 @@
 ## :fire: If you find this work useful for your research, please kindly cite our paper and star our repo.
 
 ## :fire: Updates
-- [11/2025] H-GAR has been accepted by AAAI 2026!
+- [11/2025] H-GAR has been accepted by AAAI 2026 as oral!
 
 ## :fire: Introduction
 
 This is the github repository of *H-GAR: A Hierarchical Interaction Framework via Goal-Driven
- Observation-Action Refinement for Robotic Manipulation*. In this work, we introduce H-GAR, a Hierarchical interaction framework via Goal-driven observation-action refinement for robotic manipulation.
+ Observation-Action Refinement for Robotic Manipulation*. 
+The framework first generates the coarse action and goal observation, which serve as high-level guides for the task. Then, two synergistic modules—Goal-Conditioned Observation Synthesizer (GOS) and Interaction-Aware Action Refiner (IAAR)—refine the actions by incorporating feedback from intermediate observations and leveraging a Historical Action Memory Bank to ensure temporal consistency.
 
 The whole framework of H-GAR:
 
@@ -40,3 +40,13 @@ The whole framework of H-GAR:
 
 ## :fire: Details will be released. Stay tuned.
 ## :pencil: Citation
+If you find this work useful for your research, please kindly cite our paper.
+
+```
+@inproceedings{zhu2026H-GAR,
+  title={H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation-Action Refinement for Robotic Manipulation},
+  author={Zhu, Yijie and Shao, Rui and Liu, Ziyang and He, Jie and Liu, Jizhihui and Wang, Jiuru and Yu, Zitong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026}
+}
+```
