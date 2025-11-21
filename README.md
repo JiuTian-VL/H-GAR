@@ -11,8 +11,8 @@
     <a href="https://zitongyu.github.io/" target="_blank">Zitong Yu*</a><sup>2,5</sup>, 
 </div>
 <sup>1</sup>School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<br>
-<sup>2</sup>Great Bay University<br>
-<sup>3</sup>Shenzhen Loop Area Institute<br>
+<sup>2</sup>Great Bay University
+<sup>3</sup>Shenzhen Loop Area Institute
 <sup>4</sup>Linyi University<br>
 <sup>5</sup>Dongguan Key Laboratory for Intelligence and Information Technology<br>
 *Corresponding author<br>
