@@ -55,6 +55,12 @@ The whole framework of H-GAR:
 </div>
 
 ## :fire: Details will be released. Stay tuned.
+
+## Videos
+
+https://github.com/user-attachments/assets/c47280c7-0698-490e-8ee0-79980ae299fb
+https://github.com/user-attachments/assets/3b42abc9-be44-42ef-b8f3-bb0efc128538
+
 ## :pencil: Citation
 If you find this work useful for your research, please kindly cite our paper.
 
