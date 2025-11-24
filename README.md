@@ -16,11 +16,20 @@
 <sup>4</sup>Linyi University<br>
 <sup>5</sup>Dongguan Key Laboratory for Intelligence and Information Technology<br>
 *Corresponding author<br>
+ <h3 align="center">
+<strong>
+🔥H-GAR is accepted to AAAI 2026 <span style="color:#C00000;">Oral</span>!🔥
+<br>
+⭐ Give us a star if you like it! ⭐
+<br>
+✨If you find this work useful for your research, please kindly cite our paper.✨
+</strong>
+</h3>
 </div>
 
 </div>
 
-## :fire: If you find this work useful for your research, please kindly cite our paper and star our repo.
+
 
 ## :fire: Updates
 - [11/2025] :fire: [arXiv paper](https://arxiv.org/abs/2511.17079) released!
