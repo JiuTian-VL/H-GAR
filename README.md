@@ -17,7 +17,7 @@
 <sup>5</sup>Dongguan Key Laboratory for Intelligence and Information Technology<br>
 *Corresponding author<br>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2511.10518-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2511.10518)
+[![arXiv](https://img.shields.io/badge/arXiv-2511.17079-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2511.17079)
 
  <h3 align="center">
 <strong>
