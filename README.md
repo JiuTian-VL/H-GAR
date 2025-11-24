@@ -40,6 +40,10 @@
 This is the github repository of *H-GAR: A Hierarchical Interaction Framework via Goal-Driven
  Observation-Action Refinement for Robotic Manipulation*. 
 The framework first generates the coarse action and goal observation, which serve as high-level guides for the task. Then, two synergistic modules—Goal-Conditioned Observation Synthesizer (GOS) and Interaction-Aware Action Refiner (IAAR)—refine the actions by incorporating feedback from intermediate observations and leveraging a Historical Action Memory Bank to ensure temporal consistency.
+The comparison of existing works:
+<div align="center">
+<img src='assets/intro.png' width='75%'>
+</div>
 
 The whole framework of H-GAR:
 
