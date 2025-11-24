@@ -16,7 +16,6 @@
 <sup>4</sup>Linyi University<br>
 <sup>5</sup>Dongguan Key Laboratory for Intelligence and Information Technology<br>
 *Corresponding author<br>
-
 </div>
 
 </div>
@@ -24,6 +23,7 @@
 ## :fire: If you find this work useful for your research, please kindly cite our paper and star our repo.
 
 ## :fire: Updates
+- [11/2025] :fire: [arXiv paper](https://arxiv.org/abs/2511.17079) released!
 - [11/2025] H-GAR has been accepted by AAAI 2026 as oral!
 
 ## :fire: Introduction
