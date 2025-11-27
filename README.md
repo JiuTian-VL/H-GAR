@@ -66,12 +66,13 @@ $ mamba env create -f conda_environment.yml
 Except for PushT-M, all datasets used in our experiments are publicly accessible. We further extend the original PushT task by introducing diverse goal-state “T” positions and collecting an additional set of 247 expert demonstrations. After downloading the datasets listed below, place them under the data directory.
 
 * [PushT](https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip) from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy).
-* [PushT-M](https://drive.google.com/file/d/14VqUC_LL411o9F_qdjVZlgiRBjZknw01/view?usp=sharing) from us. Download the file, extract its contents, and place them in the `data` folder.
+* [PushT-M](https://drive.google.com/file/d/14VqUC_LL411o9F_qdjVZlgiRBjZknw01/view?usp=sharing) from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main). Download the file, extract its contents, and place them in the `data` folder.
 * [Libero10](https://utexas.box.com/shared/static/cv73j8zschq8auh9npzt876fdc1akvmk.zip) from [LIBERO](https://libero-project.github.io/main.html). We replayed the data to extract the absolute actions and appended language tokens from [CLIP](https://openai.com/index/clip/) using `AutoTokenizer.from_pretrained("openai/clip-vit-base-patch32")`. Download both the original [hdf5 file](https://drive.google.com/file/d/1_6Kc7e-s30MblbX8YjpxSofe9ZRPk3xv/view?usp=sharing) and the converted [dataset](https://drive.google.com/file/d/1cPU2RVAvtukyapcWly8zP1y-dlOEF2ko/view?usp=sharing). Then, extract their contents and place them in the `data` folder.
 ### Training
 
 #### Download Pretrained Models
-We start from a pretrained VAE model and a pretrained image generation model [MAR](https://github.com/LTH14/mar). Run the following command to download the pretrained models.
+We initialize our system using a pretrained VAE along with the pretrained image generator [MAR](https://github.com/LTH14/mar).
+To obtain these models, execute the following command:
 ```
 python h_gar/utils/download.py
 ```
