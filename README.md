@@ -35,6 +35,7 @@
 
 
 ## :fire: Updates
+- [11/2025] :fire: The code is released. Enjoy it!
 - [11/2025] :fire: [arXiv paper](https://arxiv.org/abs/2511.17079) released!
 - [11/2025] H-GAR has been accepted by AAAI 2026 as oral!
 
@@ -54,8 +55,35 @@ The whole framework of H-GAR:
 <img src='assets/method.png' width='100%'>
 </div>
 
+## 🛠️ Installation
+Install the conda environment:
+```console
+$ conda install mamba -c conda-forge
+```
+```console
+$ mamba env create -f conda_environment.yml
+```
+### Training
 
+#### Download Pretrained Models
+We start from a pretrained VAE model and a pretrained image generation model [MAR](https://github.com/LTH14/mar). Run the following command to download the pretrained models.
+```
+python h_gar/utils/download.py
+```
+The Model weights and Training codes are coming soon ...
+### Testing
 
+```
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint checkpoints/pusht.ckpt --output_dir checkpoints/pusht
+```
+
+```
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint checkpoints/pusht_multitask.ckpt --output_dir checkpoints/pusht_multitask
+```
+
+```
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint checkpoints/libero10.ckpt --output_dir checkpoints/libero10
+```
 ## Videos
 
 https://github.com/user-attachments/assets/c47280c7-0698-490e-8ee0-79980ae299fb
@@ -77,5 +105,5 @@ If you find this work useful for your research, please kindly cite our paper.
   year={2026}
 }
 ```
-## :Acknowledgement
+## Acknowledgement
 * Lots of code are inherited from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main) and [MAR](https://github.com/LTH14/mar).
