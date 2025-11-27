@@ -77,3 +77,5 @@ If you find this work useful for your research, please kindly cite our paper.
   year={2026}
 }
 ```
+## :Acknowledgement
+* Lots of code are inherited from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main) and [MAR](https://github.com/LTH14/mar).
