@@ -37,7 +37,7 @@
 ## :fire: Updates
 - [11/2025] :fire: The code is released. Enjoy it!
 - [11/2025] :fire: [arXiv paper](https://arxiv.org/abs/2511.17079) released!
-- [11/2025] H-GAR has been accepted by AAAI 2026 as oral!
+- [11/2025] :fire: H-GAR has been accepted by AAAI 2026 as oral!
 
 ## :fire: Introduction
 
