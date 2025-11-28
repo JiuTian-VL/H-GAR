@@ -71,24 +71,15 @@ Download the datasets listed below, and place them under the data directory.
 ### Training
 
 #### Download Pretrained Models
-We initialize our system using a pretrained VAE along with the pretrained image generator [MAR](https://github.com/LTH14/mar).
+We initialize our model using a pretrained VAE along with the image generator [MAR](https://github.com/LTH14/mar).
 To download these models, run the following command:
 ```
 python h_gar/utils/download.py
 ```
 The Model weights and Training codes are coming soon ...
 ### Testing
-
 ```
-CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/pusht.ckpt --output_dir checkpoints/pusht
-```
-
-```
-CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/pusht_multitask.ckpt --output_dir checkpoints/pusht_multitask
-```
-
-```
-CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/libero10.ckpt --output_dir checkpoints/libero10
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/XXXX.ckpt --output_dir checkpoints/XXXX
 ```
 ## Videos
 
@@ -110,4 +101,4 @@ If you find this work useful for your research, please kindly cite our paper.
 }
 ```
 ## Acknowledgement
-* Lots of code are inherited from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main) and [MAR](https://github.com/LTH14/mar).
+* Lots of code are inherited from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main) and [MAR](https://github.com/LTH14/mar). Thanks for all these great works.
