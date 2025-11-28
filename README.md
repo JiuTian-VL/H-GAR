@@ -37,20 +37,20 @@
 ## :fire: Updates
 - [11/2025] :fire: The code is released. Enjoy it!
 - [11/2025] :fire: [arXiv paper](https://arxiv.org/abs/2511.17079) released!
-- [11/2025] :fire: H-GAR has been accepted by AAAI 2026 as oral!
+- [11/2025] :fire: H-GAR has been accepted by AAAI 2026 as **Oral**!
 
 ## :fire: Introduction
 
-This is the github repository of *H-GAR: A Hierarchical Interaction Framework via Goal-Driven
- Observation-Action Refinement for Robotic Manipulation*. 
-The framework first generates the coarse action and goal observation, which serve as high-level guides for the task. Then, two synergistic modules—Goal-Conditioned Observation Synthesizer (GOS) and Interaction-Aware Action Refiner (IAAR)—refine the actions by incorporating feedback from intermediate observations and leveraging a Historical Action Memory Bank to ensure temporal consistency.
-The comparison of existing works:
+This is the official implementation of **H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation–Action Refinement for Robotic Manipulation**.
+H-GAR follows a hierarchical, goal-driven paradigm: it first predicts a coarse action sequence and a goal observation that represents the final visual state of the task. These high-level signals then guide two synergistic modules — the **Goal-Conditioned Observation Synthesizer (GOS)** and the **Interaction-Aware Action Refiner (IAAR)**. GOS synthesizes goal-consistent intermediate observations conditioned on the predicted actions, while IAAR refines the actions by incorporating feedback from these intermediate observations and leveraging a Historical Action Memory Bank to ensure temporal consistency and stable execution.
+
+We also provide comprehensive comparisons with existing video–action prediction and robotic manipulation methods (see below):
+
 <div align="center">
 <img src='assets/intro.png' width='75%'>
 </div>
 
-The whole framework of H-GAR:
-
+The overall framework of H-GAR is illustrated below: given a task instruction and past observations, H-GAR predicts a goal observation and coarse actions, then refines them via GOS and IAAR through explicit observation–action interaction.
 <div align="center">
 <img src='assets/method.png' width='100%'>
 </div>
