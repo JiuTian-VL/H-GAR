@@ -42,7 +42,7 @@
 ## :fire: Introduction
 
 This is the official implementation of **H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation–Action Refinement for Robotic Manipulation**.
-H-GAR follows a hierarchical, goal-driven paradigm: it first predicts a coarse action sequence and a goal observation that represents the final visual state of the task. These high-level signals then guide two synergistic modules — the **Goal-Conditioned Observation Synthesizer (GOS)** and the **Interaction-Aware Action Refiner (IAAR)**. GOS synthesizes goal-consistent intermediate observations conditioned on the predicted actions, while IAAR refines the actions by incorporating feedback from these intermediate observations and leveraging a Historical Action Memory Bank to ensure temporal consistency and stable execution.
+H-GAR follows a hierarchical, goal-driven paradigm: it first predicts a coarse action sequence and a goal observation that represents the final visual state of the task. These high-level signals then guide two synergistic modules — the **Goal-Conditioned Observation Synthesizer (GOS)** and the **Interaction-Aware Action Refiner (IAAR)**. GOS synthesizes goal-consistent intermediate observations conditioned on the predicted actions, while IAAR refines the actions by incorporating feedback from these intermediate observations and leveraging a **Historical Action Memory Bank** to ensure temporal consistency and stable execution.
 
 We also provide comprehensive comparisons with existing video–action prediction and robotic manipulation methods (see below):
 
