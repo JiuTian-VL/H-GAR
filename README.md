@@ -63,7 +63,7 @@ $ conda install mamba -c conda-forge
 ```console
 $ mamba env create -f conda_environment.yml
 ```
-Except for PushT-M, all datasets used in our experiments are publicly accessible. We further extend the original PushT task by introducing diverse goal-state “T” positions and collecting an additional set of 247 expert demonstrations. After downloading the datasets listed below, place them under the data directory.
+Downloading the datasets listed below, place them under the data directory.
 
 * [PushT](https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip) from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy).
 * [PushT-M](https://drive.google.com/file/d/14VqUC_LL411o9F_qdjVZlgiRBjZknw01/view?usp=sharing) from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main). Download the file, extract its contents, and place them in the `data` folder.
