@@ -80,15 +80,15 @@ The Model weights and Training codes are coming soon ...
 ### Testing
 
 ```
-CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint checkpoints/pusht.ckpt --output_dir checkpoints/pusht
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/pusht.ckpt --output_dir checkpoints/pusht
 ```
 
 ```
-CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint checkpoints/pusht_multitask.ckpt --output_dir checkpoints/pusht_multitask
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/pusht_multitask.ckpt --output_dir checkpoints/pusht_multitask
 ```
 
 ```
-CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint checkpoints/libero10.ckpt --output_dir checkpoints/libero10
+CUDA_VISIBLE_DEVICES=0 python eval_sim.py --checkpoint path/libero10.ckpt --output_dir checkpoints/libero10
 ```
 ## Videos
 
