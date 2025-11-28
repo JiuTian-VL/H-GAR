@@ -63,7 +63,7 @@ $ conda install mamba -c conda-forge
 ```console
 $ mamba env create -f conda_environment.yml
 ```
-Downloading the datasets listed below, place them under the data directory.
+Download the datasets listed below, and place them under the data directory.
 
 * [PushT](https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip) from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy).
 * [PushT-M](https://drive.google.com/file/d/14VqUC_LL411o9F_qdjVZlgiRBjZknw01/view?usp=sharing) from [UVA](https://github.com/ShuangLI59/unified_video_action/tree/main). Download the file, extract its contents, and place them in the `data` folder.
@@ -72,7 +72,7 @@ Downloading the datasets listed below, place them under the data directory.
 
 #### Download Pretrained Models
 We initialize our system using a pretrained VAE along with the pretrained image generator [MAR](https://github.com/LTH14/mar).
-To obtain these models, execute the following command:
+To download these models, run the following command:
 ```
 python h_gar/utils/download.py
 ```
